@@ -4,9 +4,9 @@ figma.connect('https://www.figma.com/design/9ERzMI9457zlkUpMs9x3Mf/GEDIPAS---Pri
   props: {
     label: figma.string('Label')
   },
-  example: ({ label }) => 
+  example: ({ props }) => 
     html`\
   <p-tag>
-    ${label}
+    ${props.label}
   </p-tag>`
 })
